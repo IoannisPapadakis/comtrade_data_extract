@@ -56,7 +56,7 @@ for c in countryIDs:
         time.sleep(3)
         timePassed = time.time() - t0
         
-        # if hour limit reached, sleep for the remained of the hour
+        # if hour limit reached, sleep for the remainer of the hour
         if timePassed<3600 and callsThisHour>98:
             print 'sleeping...'
             time.sleep(3700-timePassed)
